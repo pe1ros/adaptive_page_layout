@@ -412,8 +412,7 @@ button{
     display: flex;
     flex-direction: column; 
   }
-  .first-screen_logotype{
-    position: absolute;
+  .first-screen_logotype{ 
     left: 20px;
     top: 30px;
     width: 96px;
