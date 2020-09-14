@@ -1,14 +1,14 @@
-*{
+* {
   margin: 0;
   padding: 0;
 }
-body{
+body {
   display: flex;
   flex-direction: column;
   max-width: 1920px;
 }
-button{
-  background: #34547A;
+button {
+  background: #34547a;
   border: none;
   font-family: Roboto;
   font-style: normal;
@@ -18,46 +18,45 @@ button{
   text-align: center;
   letter-spacing: 0.1em;
 
-  color: #FFFFFF;
+  color: #ffffff;
 }
-.first-screen{ 
-  background-color: #EEEFF1;
-  height: 780px;  
+.first-screen {
+  background-color: #eeeff1;
+  height: 780px;
   display: flex;
-  flex-direction: column; 
-} 
-.first-screen_head{
+  flex-direction: column;
+}
+.first-screen_head {
   display: flex;
   flex-direction: row;
   margin-top: 79px;
   margin-left: 402px;
 }
-.first-screen_logotype{  
-
+.first-screen_logotype {
   width: 96px;
   height: 60px;
   margin-right: 398px;
 }
-.first-screen_menu a{  
+.first-screen_menu a {
   width: 611px;
   height: 16px;
-  margin-left: 42px; 
+  margin-left: 42px;
   text-decoration: none;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 26px;
-  letter-spacing: 0.1em; 
+  letter-spacing: 0.1em;
 
-  color: #34547A;
-} 
-.first-screen_body{
+  color: #34547a;
+}
+.first-screen_body {
   display: flex;
   flex-direction: row;
 }
 
-.first-screen_picture img{
+.first-screen_picture img {
   margin-top: 187px;
   margin-left: 503px;
   width: 328px;
@@ -69,7 +68,7 @@ button{
   margin-top: 162px;
 }
 
-.first-screen_maintext h1 { 
+.first-screen_maintext h1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -77,9 +76,8 @@ button{
   line-height: 79px;
 
   color: #000000;
- 
 }
-.first-screen_maintext p{
+.first-screen_maintext p {
   width: 540px;
   height: 67px;
   margin-top: 30px;
@@ -91,27 +89,26 @@ button{
 
   color: #727272;
 }
-.first-screen_maintext_button{
+.first-screen_maintext_button {
   margin-top: 60px;
   width: 100%;
 }
-.first-screen_maintext_button button{
+.first-screen_maintext_button button {
   width: 225px;
-  height: 65px;  
-  
+  height: 65px;
 }
-.about-me{
-  height: 365px; 
+.about-me {
+  height: 365px;
 }
-.about-me_maintext  {   
+.about-me_maintext {
   width: 540px;
   height: 147px;
   margin: 120px 690px 100px;
 }
-.about-me_maintext h2 {  
+.about-me_maintext h2 {
   width: 403px;
   height: 30px;
-  margin: 0px auto  ;
+  margin: 0px auto;
 
   font-family: Roboto;
   font-style: normal;
@@ -119,87 +116,83 @@ button{
   font-size: 32px;
   line-height: 37px;
   text-align: center;
-  
+
   color: #000000;
 }
-.about-me_maintext p { 
-  margin-top: 40px; 
+.about-me_maintext p {
+  margin-top: 40px;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
   text-align: center;
-  color: #727272; 
+  color: #727272;
 }
-.rectangle-projects{
+.rectangle-projects {
   height: 250px;
-  background: #34547A;
+  background: #34547a;
   display: flex;
   flex-direction: row;
 }
-.rectangle-projects_block{
+.rectangle-projects_block {
   height: 50px;
   width: 1110px;
   margin: auto;
   display: flex;
-  flex-direction: row; 
-
+  flex-direction: row;
 }
 .rectangle-projects_pieofblock {
   margin-left: 50px;
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
 }
-.rectangle-projects_pieofblock img{
+.rectangle-projects_pieofblock img {
   height: 50px;
   width: 50px;
 }
-.rectangle-projects_pieofblock_text{
-  
+.rectangle-projects_pieofblock_text {
   margin-left: 20px;
-  
-}.rectangle-projects_pieofblock_text h3{
+}
+.rectangle-projects_pieofblock_text h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
-  
-  color: #FFFFFF;
-  
-}.rectangle-projects_pieofblock_text p{
+
+  color: #ffffff;
+}
+.rectangle-projects_pieofblock_text p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-  
-  color: #FFFFFF;
-  
+
+  color: #ffffff;
 }
-.skills{
+.skills {
   height: 650px;
-  display: flex; 
+  display: flex;
 }
-.skills-block{
+.skills-block {
   margin: auto;
   width: 1150px;
-  height: 450px; 
+  height: 450px;
   display: flex;
   flex-direction: row;
 }
-.skills-block_maintext{
+.skills-block_maintext {
   max-width: 445px;
-  height: 257px; 
-  display: flex; 
+  height: 257px;
+  display: flex;
   flex-direction: column;
   margin: auto;
-
 }
-.skills-block_maintext h2{ 
+.skills-block_maintext h2 {
   width: 403px;
-  height: 30px; 
+  height: 30px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -207,22 +200,21 @@ button{
   line-height: 37px;
   margin-bottom: 50px;
 
-  color: #000000; 
+  color: #000000;
 }
-.skills-block_photo  {
+.skills-block_photo {
   margin-left: 150px;
-
-}.skills-block_photo img{
+}
+.skills-block_photo img {
   max-width: 555px;
   max-height: 450px;
-
 }
-.skills-block_maintext_colorblock{
+.skills-block_maintext_colorblock {
   width: 445px;
   height: 4px;
-  background: #C4C4C4;
+  background: #c4c4c4;
 }
-.skills-block_maintext_head p{
+.skills-block_maintext_head p {
   height: 15px;
   font-family: Roboto;
   font-style: normal;
@@ -233,26 +225,26 @@ button{
 
   color: #727272;
 }
-.skills-block_maintext_colorblock p{
+.skills-block_maintext_colorblock p {
   height: 4px;
-  width: 335px; 
-  background: #34547A;
+  width: 335px;
+  background: #34547a;
 }
-.skills-block_maintext_colorblock{
+.skills-block_maintext_colorblock {
   margin-bottom: 30px;
 }
-.video-block{ 
-  height: 1004px; 
-  background: #EEEFF1;
+.video-block {
+  height: 1004px;
+  background: #eeeff1;
 }
-.video-block_title{
+.video-block_title {
   width: 540px;
   height: 147px;
   margin: 100px 690px 57px;
 }
-.video-block_title h2{
+.video-block_title h2 {
   width: 403;
-  height: 30px; 
+  height: 30px;
 
   font-family: Roboto;
   font-style: normal;
@@ -262,9 +254,8 @@ button{
   text-align: center;
 
   color: #000000;
-
 }
-.video-block_title p{
+.video-block_title p {
   width: 540px;
   height: 67px;
   margin-top: 50px;
@@ -277,57 +268,54 @@ button{
   text-align: center;
 
   color: #727272;
-
 }
 .video-block_rectangle {
   position: relative;
   margin: 0px 405px 100px;
 }
-.video-block_rectangle_main{ 
+.video-block_rectangle_main {
   width: 1100px;
   height: 600px;
 }
-.video-block_rectangle_play{ 
+.video-block_rectangle_play {
   position: absolute;
   width: 100px;
   height: 100px;
   top: 250px;
-  left: 500px;  
+  left: 500px;
 }
-.projects-block{ 
+.projects-block {
   height: 960px;
   margin-bottom: 30px;
 }
-.projects-block_picture{   
+.projects-block_picture {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-} 
-.projects-block_picture_col{ 
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.projects-block_picture_col {
   background-size: contain;
-  background-color: #34547A;   
+  background-color: #34547a;
   background-image: url(./pictures/eye.png);
-
 }
-.projects-block_picture_col img{
-  width: 475px;
-  height: 475px;   
-}  
-.projects-block_picture_col img:hover{    
+.projects-block_picture_col img {
+  width: 100%;
+  height: 100%;
+}
+.projects-block_picture_col img:hover {
   opacity: 0.3;
-  
 }
-.form-block{
+.form-block {
   height: 762px;
-  background: #EEEFF1;
+  background: #eeeff1;
 }
-.form-block_title{
+.form-block_title {
   width: 540px;
   height: 147px;
   margin: 100px 690px 65px;
 }
-.form-block_title h2{
+.form-block_title h2 {
   width: 406;
-  height: 30px; 
+  height: 30px;
 
   font-family: Roboto;
   font-style: normal;
@@ -337,9 +325,8 @@ button{
   text-align: center;
 
   color: #000000;
-
 }
-.form-block_title p{
+.form-block_title p {
   width: 540px;
   height: 67px;
   margin-top: 50px;
@@ -353,256 +340,256 @@ button{
   text-align: center;
 
   color: #727272;
-
 }
-.form-block_message{
+.form-block_message {
   width: 540px;
   margin: auto;
 }
-.form-block_message input{
+.form-block_message input {
   width: 240px;
   height: 50px;
-  margin: 10px;   
+  margin: 10px;
   margin-bottom: 20px;
 }
-.form-block_message input:last-child{
-   width: 520px; 
+.form-block_message input:last-child {
+  width: 520px;
   height: 175px;
-  margin-bottom:50px;
+  margin-bottom: 50px;
 }
-.form-block_button{ 
-  margin:auto; 
+.form-block_button {
+  margin: auto;
   text-align: center;
-}.form-block_button button{  
-  width: 190px;
-  height: 55px;  
 }
-.footer-block{
+.form-block_button button {
+  width: 190px;
+  height: 55px;
+}
+.footer-block {
   height: 151px;
-  background-color:   #34547A;
+  background-color: #34547a;
   display: flex;
   justify-content: space-around;
 }
-.footer-block_vklogo img{
+.footer-block_vklogo img {
   width: 50px;
-  height: 50px; 
+  height: 50px;
 }
-.footer-block_author{
+.footer-block_author {
   margin: 50px;
 }
-.footer-block_author h3{
+.footer-block_author h3 {
   margin-bottom: 10px;
 }
-.footer-block_vklogo{
+.footer-block_vklogo {
   margin: 50px;
-} 
- 
-@media (max-width:1279px){  
-  .first-screen{  
-    height: 870px;   
+}
+
+@media (max-width: 1279px) {
+  .first-screen {
+    height: 870px;
   }
-  .first-screen_picture img{ 
+  .first-screen_picture img {
     width: 274px;
     height: 188px;
   }
-  .first-screen_menu{
+  .first-screen_menu {
     display: none;
   }
-  .first-screen_body{
+  .first-screen_body {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
   }
-  .first-screen_logotype{ 
+  .first-screen_logotype { 
     left: 20px;
     top: 30px;
     width: 96px;
     height: 60px;
   }
-  .first-screen_picture{
+  .first-screen_picture {
     margin: auto;
   }
-  .first-screen_picture img{
-    margin:  60px auto ; 
+  .first-screen_picture img {
+    margin: 60px auto;
     width: 300px;
-    height: 195px; 
+    height: 195px;
   }
-  .first-screen_maintext{
-    margin:  auto; 
-    width: 100%;  
+  .first-screen_maintext {
+    margin: auto;
+    width: 100%;
   }
-  .first-screen_maintext h1{   
+  .first-screen_maintext h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
     font-size: 36px;
-    line-height: 100%; 
-    width: 100%; 
+    line-height: 100%;
+    width: 100%;
     display: flex;
     justify-content: center;
   }
-  .first-screen_maintext p{  
-    width: auto;  
+  .first-screen_maintext p {
+    width: auto;
     height: auto;
     padding: 45px 25px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 120%;  
-    text-align: center; 
-    color: #727272;  
-    word-wrap: break-word;  
+    line-height: 120%;
+    text-align: center;
+    color: #727272;
+    word-wrap: break-word;
   }
-  .first-screen_maintext_button{
+  .first-screen_maintext_button {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
   }
-  .about-me{
+  .about-me {
     height: 351px;
     margin-bottom: 80px;
   }
-  .about-me_maintext  {
+  .about-me_maintext {
     margin-left: auto;
-    width: 100% ;
+    width: 100%;
   }
-  .about-me_maintext h2  {   
+  .about-me_maintext h2 {
     margin-left: 0;
     width: 100%;
     height: 38px;
   }
-  .about-me_maintext p  {
-    padding: 42px 26px; 
+  .about-me_maintext p {
+    padding: 42px 26px;
     text-align: center;
     margin: 0;
   }
-  .rectangle-projects{
+  .rectangle-projects {
     height: 400px;
   }
-  .rectangle-projects_block{  
+  .rectangle-projects_block {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
+    grid-template-columns: 1fr 1fr;
     margin-top: 50px;
   }
-  .rectangle-projects_pieofblock{
-    margin: 10px ;
+  .rectangle-projects_pieofblock {
+    margin: 10px;
     margin-bottom: 50px;
   }
-  .skills{
+  .skills {
     height: 800px;
     width: 100%;
   }
-  .skills-block{
+  .skills-block {
     display: flex;
-    flex-direction: column; 
-    margin-top:80px;
+    flex-direction: column;
+    margin-top: 80px;
   }
-  .skills-block_maintext  { 
-    margin: auto; 
+  .skills-block_maintext {
+    margin: auto;
     order: 2;
-    width: 95%; 
+    width: 95%;
   }
-  .skills-block_maintext h2 { 
-    display: flex; 
+  .skills-block_maintext h2 {
+    display: flex;
     justify-content: center;
   }
-  .skills-block_maintext_head{ 
+  .skills-block_maintext_head {
     margin-left: 10px;
   }
-  .skills-block_maintext_colorblock{
-    width: 96%; 
+  .skills-block_maintext_colorblock {
+    width: 96%;
   }
-  .skills-block_maintext_colorblock p{ 
-    width: 75%; 
+  .skills-block_maintext_colorblock p {
+    width: 75%;
   }
-  .skills-block_photo { 
+  .skills-block_photo {
     margin: auto;
     max-width: auto;
     order: 1;
   }
-  .skills-block_photo img { 
+  .skills-block_photo img {
     padding: 15px;
-     width: 90%;
-  } 
-  .skills-block_maintext h2 { 
+    width: 90%;
+  }
+  .skills-block_maintext h2 {
     margin-top: 50px;
     text-align: center;
     max-width: 320px;
-    }
+  }
 
-  .video-block{
+  .video-block {
     height: 630px;
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-  .video-block_title{
+  .video-block_title {
     margin: 0;
     width: 100%;
     margin-top: 93px;
     justify-content: center;
   }
-  .video-block_title p{
+  .video-block_title p {
     height: auto;
     width: 86%;
     text-align: center;
     margin-top: 34px;
-    padding: 0 26px; 
-    word-wrap: break-word; 
+    padding: 0 26px;
+    word-wrap: break-word;
   }
-  .video-block_rectangle  { 
+  .video-block_rectangle {
     margin: auto;
     width: auto;
     max-height: 220px;
     padding: 18px;
-    margin-top: 90px;  
+    margin-top: 90px;
   }
-  .video-block_rectangle img:first-child{ 
+  .video-block_rectangle img:first-child {
     margin: 0;
     width: 100%;
     height: 185px;
   }
-  .video-block_rectangle img:last-child{ 
+  .video-block_rectangle img:last-child {
     position: absolute;
     top: 28%;
     left: 38%;
   }
-  .projects-block{
+  .projects-block {
     width: auto;
     height: 650px;
     margin-bottom: 150px;
     margin-top: 35px;
   }
-  .projects-block_picture{  
+  .projects-block_picture {
     display: grid;
-    grid-template-columns: 1fr 1fr; 
-  } 
-  .projects-block_picture_col img{   
+    grid-template-columns: 1fr 1fr;
+  }
+  .projects-block_picture_col img {
     width: 100%;
-    height: 100%;  
-  } 
-  .form-block{
+    height: 100%;
+  }
+  .form-block {
     width: auto;
     height: auto;
   }
-  .form-block_title  {
-    margin: 0 ;
+  .form-block_title {
+    margin: 0;
     margin-top: 91px;
     width: auto;
   }
-  .form-block_title h1{
+  .form-block_title h1 {
     margin-top: 30px;
     width: 100%;
     text-align: center;
   }
-  .form-block_title p{ 
-    margin: 0; 
+  .form-block_title p {
+    margin: 0;
     text-align: center;
-    padding: 34px 26px; 
+    padding: 34px 26px;
     height: auto;
-    width: auto;   
-    word-wrap: break-word; 
+    width: auto;
+    word-wrap: break-word;
   }
-  .form-block_message{
+  .form-block_message {
     width: auto;
     margin-left: 20px;
     margin-top: 80px;
@@ -613,24 +600,24 @@ button{
   .form-block_message input {
     width: 85%;
   }
-  .form-block_message input:last-child{
+  .form-block_message input:last-child {
     width: 85%;
   }
-  .form-block_button button{
-    margin:auto;
+  .form-block_button button {
+    margin: auto;
     margin-bottom: 100px;
   }
-  .footer-block{
+  .footer-block {
     display: flex;
     flex-direction: column;
     width: auto;
     height: 210px;
   }
-  .footer-block_author{
+  .footer-block_author {
     margin: 0;
     text-align: center;
   }
-  .footer-block_vklogo{
+  .footer-block_vklogo {
     margin: 0;
     text-align: center;
   }
