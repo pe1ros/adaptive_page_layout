@@ -131,6 +131,7 @@ button {
   line-height: 26px;
   text-align: center;
   color: #727272;
+  line-height: 120%;
 }
 .rectangle-projects {
   height: 250px;
@@ -270,9 +271,10 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 120%; 
+  
   text-align: center;
-
+  
   color: #727272;
 }
 .video-block_rectangle {
@@ -287,9 +289,13 @@ button {
 .video-block_rectangle_play {
   position: absolute;
   width: 100px;
-  height: 100px;
-  top: 250px;
-  left: 48%;  
+  height: 100px; 
+  margin:auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
 }
 .projects-block {
   max-height: 960px;
@@ -351,10 +357,8 @@ button {
   font-weight: normal;
   font-size: 16px;
   line-height: 120%; 
-
+  color: #727272;  
   text-align: center;
-
-  color: #727272;
 }
 .form-block_message {
   width: 540px;
@@ -410,6 +414,25 @@ button {
 }
 .footer-block_author h3 {
   margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 25px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
+.footer-block_author p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 21px;
+  text-align: center;
+
+  color: #FFFFFF;
+
 }
 .footer-block_vklogo {
   margin: 50px;
@@ -475,6 +498,7 @@ button {
   .first-screen_maintext_button {
     display: flex;
     justify-content: center;
+    margin-top: 0;
   }
   .about-me {
     height: 351px; 
@@ -482,9 +506,10 @@ button {
   }
   .about-me_maintext {
     margin: auto;
-    width: 50%;
+    width: 90%;
     height: auto;
     justify-content: center;
+      
     
   }
   .about-me_maintext h2 {
@@ -495,7 +520,8 @@ button {
   .about-me_maintext p {
     padding: 42px 26px;
     text-align: center;
-    margin: 0;
+    margin: 0; 
+    
   }
   .rectangle-projects {
     height: 400px;
@@ -506,7 +532,7 @@ button {
     margin-top: 50px;  
   }
   .rectangle-projects_pieofblock {
-    margin: 10px;
+    margin:  10px;
     margin-bottom: 50px;
   }
   .skills {
@@ -517,6 +543,7 @@ button {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
+    height: auto;
   }
   .skills-block_maintext {
     margin: auto;
@@ -560,17 +587,18 @@ button {
   }
   .video-block_title {
     margin: 0;
-    width: 50%;
+    width: 90%;
     margin-top: 93px;
     align-self: center;
   }
   .video-block_title p {
     height: auto;
-    width: 86%;
+    width: auto;
     text-align: center;
     margin-top: 34px;
     padding: 0 26px;
     word-wrap: break-word;
+    
   }
   .video-block_rectangle { 
     width: auto;
@@ -585,22 +613,29 @@ button {
   }
   .video-block_rectangle img:last-child {
     position: absolute;
-    top: 40%;
-    left: 46%;  
+    width: 80px;
+    height: 80px; 
+    margin:auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
   }
   .projects-block { 
     margin-bottom: 30px; 
+    min-height: 1050px;
   }
   .projects-block_picture {
     display: grid;
     grid-template-columns: 1fr 1fr ; 
-  } 
+  }  
   .projects-block_picture_col img { 
-    width: auto;
-    height: auto;
+    width: 250px;
+    width: 250px;
   } 
   .form-block {
-    min-height: 830px;
+    min-height: 780px;
   }
   .form-block_title { 
     margin-top: 91px;
@@ -615,7 +650,7 @@ button {
   }
   .form-block_title p {
     margin: 0; 
-    padding: 34px 29px; 
+    padding: 34px 26px; 
     width: 70%;
     height: auto; 
     margin: auto;
@@ -653,25 +688,45 @@ button {
     text-align: center;
   }
 }
-@media (max-width: 375px) { 
+@media (max-width: 380px) { 
   .about-me_maintext {
     width: 100%;
   }  
   .skills{
     min-height: 750px; 
-  }
+  } 
   .video-block_title {
     width: auto;
   }
-  .video-block_rectangle img:last-child {
+ .video-block_rectangle {
+  margin-bottom: 80px;
+ }
+ .video-block_rectangle img:last-child {
     position: absolute;
     width: 70px;
-    height: 70px;
-    top: 35%;
-    left: 40%;  
+    height: 70px; 
+    margin:auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
   }
+  .form-block_title{
+   margin-top: 50px;
+  }  
   .form-block_title p{
    margin: 0;
-   width: 84%; 
+   width: 84%;  
+   width: auto;
+   height: auto;   
+   text-align: center; 
+   word-wrap: break-word;
   }
+  .projects-block {  
+    min-height: 750px;
+  }
+  .first-screen {
+    height: 800px;
+  }  
 }
