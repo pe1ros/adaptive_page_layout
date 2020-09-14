@@ -5,7 +5,7 @@
 body {
   display: flex;
   flex-direction: column;
-  max-width: 1920px;
+  max-width: auto;
 }
 button {
   background: #34547a;
@@ -25,12 +25,13 @@ button {
   height: 780px;
   display: flex;
   flex-direction: column;
+  width: auto;
 }
 .first-screen_head {
   display: flex;
   flex-direction: row;
-  margin-top: 79px;
-  margin-left: 402px;
+  margin-top: 79px; 
+  justify-content: space-around;
 }
 .first-screen_logotype {
   width: 96px;
@@ -38,7 +39,7 @@ button {
   margin-right: 398px;
 }
 .first-screen_menu a {
-  width: 611px;
+  width: auto;
   height: 16px;
   margin-left: 42px;
   text-decoration: none;
@@ -54,13 +55,14 @@ button {
 .first-screen_body {
   display: flex;
   flex-direction: row;
-}
-
+  align-self: center;
+  
+} 
 .first-screen_picture img {
   margin-top: 187px;
-  margin-left: 503px;
-  width: 328px;
-  height: 225px;
+  margin-left: auto;
+  max-width: 328px;
+  max-height: 225px;
 }
 
 .first-screen_maintext {
@@ -78,7 +80,7 @@ button {
   color: #000000;
 }
 .first-screen_maintext p {
-  width: 540px;
+  max-width: 540px;
   height: 67px;
   margin-top: 30px;
   font-family: Roboto;
@@ -99,11 +101,12 @@ button {
 }
 .about-me {
   height: 365px;
+  margin: auto;
 }
 .about-me_maintext {
   width: 540px;
   height: 147px;
-  margin: 120px 690px 100px;
+  margin-top: 20% 
 }
 .about-me_maintext h2 {
   width: 403px;
@@ -131,13 +134,13 @@ button {
 }
 .rectangle-projects {
   height: 250px;
+  min-width: 100%;
   background: #34547a;
   display: flex;
   flex-direction: row;
 }
 .rectangle-projects_block {
-  height: 50px;
-  width: 1110px;
+  height: 50px; 
   margin: auto;
   display: flex;
   flex-direction: row;
@@ -236,11 +239,14 @@ button {
 .video-block {
   height: 1004px;
   background: #eeeff1;
+  margin-bottom: 28px;
 }
 .video-block_title {
   width: 540px;
   height: 147px;
-  margin: 100px 690px 57px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 57px;
 }
 .video-block_title h2 {
   width: 403;
@@ -271,38 +277,45 @@ button {
 }
 .video-block_rectangle {
   position: relative;
-  margin: 0px 405px 100px;
+  text-align: center;
 }
 .video-block_rectangle_main {
   width: 1100px;
   height: 600px;
-}
+  
+}  
 .video-block_rectangle_play {
   position: absolute;
   width: 100px;
   height: 100px;
   top: 250px;
-  left: 500px;
+  left: 48%;  
 }
 .projects-block {
-  height: 960px;
+  max-height: 960px;
   margin-bottom: 30px;
+  align-self: center;
 }
 .projects-block_picture {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
+  max-width: 1920px;
+  max-height: 960px;
 }
 .projects-block_picture_col {
-  background-size: contain;
+  background-size: 25% 25%;
   background-color: #34547a;
   background-image: url(./pictures/eye.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .projects-block_picture_col img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 .projects-block_picture_col img:hover {
   opacity: 0.3;
+  cursor: pointer;
 }
 .form-block {
   height: 762px;
@@ -310,8 +323,9 @@ button {
 }
 .form-block_title {
   width: 540px;
-  height: 147px;
-  margin: 100px 690px 65px;
+  height: auto;
+  margin: auto;
+  margin-top: 100px;
 }
 .form-block_title h2 {
   width: 406;
@@ -336,7 +350,8 @@ button {
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 120%; 
+
   text-align: center;
 
   color: #727272;
@@ -344,17 +359,24 @@ button {
 .form-block_message {
   width: 540px;
   margin: auto;
+  display: flex;
+  flex-direction: column;
 }
-.form-block_message input {
-  width: 240px;
-  height: 50px;
-  margin: 10px;
+.form-block_message_firstinputs   { 
+  display: flex;
+  justify-content: space-between;
+}
+.form-block_message_firstinputs input {
+  width: 255px;
+  height: 50px; 
   margin-bottom: 20px;
+  border: none;
 }
-.form-block_message input:last-child {
-  width: 520px;
+.form-block_message_secondinput input{
+  width: 540px;
   height: 175px;
   margin-bottom: 50px;
+  border: none;
 }
 .form-block_button {
   margin: auto;
@@ -363,6 +385,15 @@ button {
 .form-block_button button {
   width: 190px;
   height: 55px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  letter-spacing: 0.15em;
+
+  color: #FFFFFF;
 }
 .footer-block {
   height: 151px;
@@ -399,7 +430,8 @@ button {
     display: flex;
     flex-direction: column;
   }
-  .first-screen_logotype { 
+  .first-screen_logotype {
+    position: absolute;
     left: 20px;
     top: 30px;
     width: 96px;
@@ -445,17 +477,20 @@ button {
     justify-content: center;
   }
   .about-me {
-    height: 351px;
-    margin-bottom: 80px;
+    height: 351px; 
+    display: flex;
   }
   .about-me_maintext {
-    margin-left: auto;
-    width: 100%;
+    margin: auto;
+    width: 50%;
+    height: auto;
+    justify-content: center;
+    
   }
   .about-me_maintext h2 {
     margin-left: 0;
     width: 100%;
-    height: 38px;
+    height: 38px; 
   }
   .about-me_maintext p {
     padding: 42px 26px;
@@ -468,14 +503,14 @@ button {
   .rectangle-projects_block {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 50px;
+    margin-top: 50px;  
   }
   .rectangle-projects_pieofblock {
     margin: 10px;
     margin-bottom: 50px;
   }
   .skills {
-    height: 800px;
+    min-height: 1000px;
     width: 100%;
   }
   .skills-block {
@@ -491,6 +526,7 @@ button {
   .skills-block_maintext h2 {
     display: flex;
     justify-content: center;
+    align-self: center;
   }
   .skills-block_maintext_head {
     margin-left: 10px;
@@ -517,16 +553,16 @@ button {
   }
 
   .video-block {
-    height: 630px;
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
   }
   .video-block_title {
     margin: 0;
-    width: 100%;
+    width: 50%;
     margin-top: 93px;
-    justify-content: center;
+    align-self: center;
   }
   .video-block_title p {
     height: auto;
@@ -536,77 +572,72 @@ button {
     padding: 0 26px;
     word-wrap: break-word;
   }
-  .video-block_rectangle {
-    margin: auto;
+  .video-block_rectangle { 
     width: auto;
-    max-height: 220px;
+    height: auto;
     padding: 18px;
     margin-top: 90px;
   }
-  .video-block_rectangle img:first-child {
-    margin: 0;
-    width: 100%;
-    height: 185px;
-  }
-  .video-block_rectangle img:last-child {
-    position: absolute;
-    top: 28%;
-    left: 38%;
-  }
-  .projects-block {
-    width: auto;
-    height: 650px;
-    margin-bottom: 150px;
-    margin-top: 35px;
-  }
-  .projects-block_picture {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-  .projects-block_picture_col img {
+  .video-block_rectangle img:first-child { 
+    position: relative;
     width: 100%;
     height: 100%;
   }
-  .form-block {
+  .video-block_rectangle img:last-child {
+    position: absolute;
+    top: 40%;
+    left: 46%;  
+  }
+  .projects-block { 
+    margin-bottom: 30px; 
+  }
+  .projects-block_picture {
+    display: grid;
+    grid-template-columns: 1fr 1fr ; 
+  } 
+  .projects-block_picture_col img { 
     width: auto;
     height: auto;
+  } 
+  .form-block {
+    min-height: 830px;
   }
-  .form-block_title {
-    margin: 0;
+  .form-block_title { 
     margin-top: 91px;
     width: auto;
+    display: flex;
+    flex-direction: column;
   }
-  .form-block_title h1 {
+  .form-block_title h2 {
     margin-top: 30px;
     width: 100%;
     text-align: center;
   }
   .form-block_title p {
-    margin: 0;
-    text-align: center;
-    padding: 34px 26px;
-    height: auto;
-    width: auto;
-    word-wrap: break-word;
+    margin: 0; 
+    padding: 34px 29px; 
+    width: 70%;
+    height: auto; 
+    margin: auto;
   }
   .form-block_message {
-    width: auto;
-    margin-left: 20px;
-    margin-top: 80px;
+    width: auto;  
+  } 
+   .form-block_message_firstinputs{ 
     display: flex;
-    flex-direction: column;
-  }
-
-  .form-block_message input {
-    width: 85%;
-  }
-  .form-block_message input:last-child {
-    width: 85%;
-  }
-  .form-block_button button {
+    flex-direction: column;  
+    align-items: center; 
+  } 
+  .form-block_message_secondinput  {
     margin: auto;
-    margin-bottom: 100px;
-  }
+    width: 100%;
+    text-align: center;
+      
+  } 
+   .form-block_message input {
+    width: 90%;
+    border: none;
+  }  
   .footer-block {
     display: flex;
     flex-direction: column;
@@ -620,5 +651,27 @@ button {
   .footer-block_vklogo {
     margin: 0;
     text-align: center;
+  }
+}
+@media (max-width: 375px) { 
+  .about-me_maintext {
+    width: 100%;
+  }  
+  .skills{
+    min-height: 750px; 
+  }
+  .video-block_title {
+    width: auto;
+  }
+  .video-block_rectangle img:last-child {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    top: 35%;
+    left: 40%;  
+  }
+  .form-block_title p{
+   margin: 0;
+   width: 84%; 
   }
 }
