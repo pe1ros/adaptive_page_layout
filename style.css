@@ -506,7 +506,7 @@ button {
   }
   .about-me_maintext {
     margin: auto;
-    width: 90%;
+    width: 50%;
     height: auto;
     justify-content: center;
       
@@ -520,7 +520,7 @@ button {
   .about-me_maintext p {
     padding: 42px 26px;
     text-align: center;
-    margin: 0; 
+    margin: 0;  
     
   }
   .rectangle-projects {
@@ -587,7 +587,7 @@ button {
   }
   .video-block_title {
     margin: 0;
-    width: 90%;
+    width: 50%;
     margin-top: 93px;
     align-self: center;
   }
@@ -651,12 +651,13 @@ button {
   .form-block_title p {
     margin: 0; 
     padding: 34px 26px; 
-    width: 70%;
     height: auto; 
     margin: auto;
+    width: 50%;
   }
-  .form-block_message {
-    width: auto;  
+  .form-block_message { 
+
+    width: 50%; 
   } 
    .form-block_message_firstinputs{ 
     display: flex;
@@ -711,6 +712,9 @@ button {
     top: 0;
     bottom: 0;
     text-align: center;
+  }
+  .form-block_message{
+    width: auto;
   }
   .form-block_title{
    margin-top: 50px;
