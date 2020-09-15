@@ -2,11 +2,13 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   display: flex;
   flex-direction: column;
   max-width: auto;
 }
+
 button {
   background: #34547a;
   border: none;
@@ -17,28 +19,31 @@ button {
   line-height: 26px;
   text-align: center;
   letter-spacing: 0.1em;
-
   color: #ffffff;
 }
-.first-screen {
+
+.first__screen {
   background-color: #eeeff1;
   height: 780px;
   display: flex;
   flex-direction: column;
   width: auto;
 }
-.first-screen_head {
+
+.first__screen--head {
   display: flex;
   flex-direction: row;
   margin-top: 79px; 
   justify-content: space-around;
 }
-.first-screen_logotype {
+
+.first__screen--logotype {
   width: 96px;
   height: 60px;
   margin-right: 398px;
 }
-.first-screen_menu a {
+
+.first__screen--menu a {
   width: auto;
   height: 16px;
   margin-left: 42px;
@@ -49,66 +54,68 @@ button {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.1em;
-
   color: #34547a;
 }
-.first-screen_body {
+
+.first__screen--body {
   display: flex;
   flex-direction: row;
   align-self: center;
-  
 } 
-.first-screen_picture img {
+
+.first__screen--picture img {
   margin-top: 187px;
   margin-left: auto;
   max-width: 328px;
   max-height: 225px;
 }
 
-.first-screen_maintext {
+.first__screen--maintext {
   margin-left: 142px;
   margin-top: 162px;
 }
 
-.first-screen_maintext h1 {
+.first__screen--maintext h1 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 48px;
   line-height: 79px;
-
   color: #000000;
 }
-.first-screen_maintext p {
-  max-width: 540px;
-  height: 67px;
-  margin-top: 30px;
+
+.first__screen--maintext p {
+  max-width: 540px; 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-
   color: #727272;
+  padding: 60px 0;
 }
-.first-screen_maintext_button {
-  margin-top: 60px;
+
+.first__screen--maintext--button { 
   width: 100%;
 }
-.first-screen_maintext_button button {
+
+.first__screen--maintext--button button {
   width: 225px;
   height: 65px;
 }
-.about-me {
+
+.about__me {
   height: 365px;
   margin: auto;
 }
-.about-me_maintext {
+
+.about__me--maintext {
   width: 540px;
   height: 147px;
-  margin-top: 20% 
+  margin-top: 120px;
 }
-.about-me_maintext h2 {
+
+.about__me--maintext h2 {
   width: 403px;
   height: 30px;
   margin: 0px auto;
@@ -119,82 +126,94 @@ button {
   font-size: 32px;
   line-height: 37px;
   text-align: center;
-
   color: #000000;
 }
-.about-me_maintext p {
-  margin-top: 40px;
+
+.about__me--maintext p {
+  padding-top: 50px; 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 26px;
   text-align: center;
   color: #727272;
   line-height: 120%;
 }
-.rectangle-projects {
+
+.rectangle__projects {
   height: 250px;
   min-width: 100%;
   background: #34547a;
   display: flex;
   flex-direction: row;
 }
-.rectangle-projects_block {
+
+.rectangle__projects--block {
   height: 50px; 
   margin: auto;
   display: flex;
   flex-direction: row;
 }
-.rectangle-projects_pieofblock {
-  margin-left: 50px;
+
+.rectangle__projects--block--pieofblock{
+  margin-right: 50px;
   display: flex;
   flex-direction: row;
 }
-.rectangle-projects_pieofblock img {
+
+.rectangle__projects--block--pieofblock:last-child{
+  margin-right: 0;
+}
+
+.rectangle__projects--block--pieofblock img {
   height: 50px;
   width: 50px;
 }
-.rectangle-projects_pieofblock_text {
+
+.rectangle__projects--block--pieofblock--text {
   margin-left: 20px;
 }
-.rectangle-projects_pieofblock_text h3 {
+
+.rectangle__projects--block--pieofblock--text h3 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 21px;
   line-height: 25px;
-
   color: #ffffff;
 }
-.rectangle-projects_pieofblock_text p {
+
+.rectangle__projects--block--pieofblock--text p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 26px;
-
   color: #ffffff;
 }
+
 .skills {
   height: 650px;
   display: flex;
 }
-.skills-block {
+
+.skills__block {
   margin: auto;
   width: 1150px;
   height: 450px;
   display: flex;
   flex-direction: row;
 }
-.skills-block_maintext {
+
+.skills__block--maintext {
   max-width: 445px;
   height: 257px;
   display: flex;
   flex-direction: column;
   margin: auto;
 }
-.skills-block_maintext h2 {
+
+.skills__block--maintext h2 {
   width: 403px;
   height: 30px;
   font-family: Roboto;
@@ -203,22 +222,25 @@ button {
   font-size: 32px;
   line-height: 37px;
   margin-bottom: 50px;
-
   color: #000000;
 }
-.skills-block_photo {
+
+.skills__block--photo {
   margin-left: 150px;
 }
-.skills-block_photo img {
+
+.skills__block--photo img {
   max-width: 555px;
   max-height: 450px;
 }
-.skills-block_maintext_colorblock {
+
+.skills__block--maintext--colorblock {
   width: 445px;
   height: 4px;
   background: #c4c4c4;
 }
-.skills-block_maintext_head p {
+
+.skills__block--maintext--head p {
   height: 15px;
   font-family: Roboto;
   font-style: normal;
@@ -226,30 +248,34 @@ button {
   font-size: 16px;
   line-height: 26px;
   margin-bottom: 15px;
-
   color: #727272;
 }
-.skills-block_maintext_colorblock p {
+
+.skills__block--maintext--colorblock p {
   height: 4px;
   width: 335px;
   background: #34547a;
 }
-.skills-block_maintext_colorblock {
+
+.skills__block--maintext--colorblock {
   margin-bottom: 30px;
 }
-.video-block {
-  height: 1004px;
+
+.video__block {
+  height: auto;
   background: #eeeff1;
   margin-bottom: 28px;
 }
-.video-block_title {
+
+.video__block--title {
   width: 540px;
   height: 147px;
   margin: auto;
   margin-top: 100px;
   margin-bottom: 57px;
 }
-.video-block_title h2 {
+
+.video__block--title h2 {
   width: 403;
   height: 30px;
 
@@ -259,34 +285,34 @@ button {
   font-size: 32px;
   line-height: 37px;
   text-align: center;
-
   color: #000000;
 }
-.video-block_title p {
-  width: 540px;
-  height: 67px;
-  margin-top: 50px;
+
+.video__block--title p {
+  width: 540px; 
+  padding-top: 50px;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 120%; 
-  
   text-align: center;
-  
   color: #727272;
 }
-.video-block_rectangle {
+
+.video__block--rectangle {
   position: relative;
   text-align: center;
+  margin-bottom: 100px;
 }
-.video-block_rectangle_main {
+
+.video__block--rectangle--main {
   width: 1100px;
   height: 600px;
-  
 }  
-.video-block_rectangle_play {
+
+.video__block--rectangle--play {
   position: absolute;
   width: 100px;
   height: 100px; 
@@ -297,43 +323,51 @@ button {
   bottom: 0;
   text-align: center;
 }
-.projects-block {
+
+.projects__block {
   max-height: 960px;
   margin-bottom: 30px;
   align-self: center;
 }
-.projects-block_picture {
+
+.projects__block--picture {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   max-width: 1920px;
   max-height: 960px;
 }
-.projects-block_picture_col {
+
+.projects__block--picture--col {
   background-size: 25% 25%;
   background-color: #34547a;
   background-image: url(./pictures/eye.png);
   background-repeat: no-repeat;
   background-position: center;
 }
-.projects-block_picture_col img {
+
+.projects__block--picture--col img {
   max-width: 100%;
   max-height: 100%;
 }
-.projects-block_picture_col img:hover {
+
+.projects__block--picture--col img:hover {
   opacity: 0.3;
   cursor: pointer;
 }
-.form-block {
-  height: 762px;
+
+.form__block {
+  height: 782px;
   background: #eeeff1;
 }
-.form-block_title {
+
+.form__block--title {
   width: 540px;
   height: auto;
   margin: auto;
   margin-top: 100px;
 }
-.form-block_title h2 {
+
+.form__block--title h2 {
   width: 406;
   height: 30px;
 
@@ -343,14 +377,12 @@ button {
   font-size: 32px;
   line-height: 37px;
   text-align: center;
-
   color: #000000;
 }
-.form-block_title p {
-  width: 540px;
-  height: 67px;
-  margin-top: 50px;
-  margin-bottom: 65px;
+
+.form__block--title p {
+  width: 540px; 
+  padding-top: 50px; 
 
   font-family: Roboto;
   font-style: normal;
@@ -360,33 +392,56 @@ button {
   color: #727272;  
   text-align: center;
 }
-.form-block_message {
+
+.form__block--message {
   width: 540px;
   margin: auto;
+  margin-top: 60px;
   display: flex;
   flex-direction: column;
 }
-.form-block_message_firstinputs   { 
+
+.form__block--message--firstinputs   { 
   display: flex;
   justify-content: space-between;
 }
-.form-block_message_firstinputs input {
-  width: 255px;
+
+.form__block--message--firstinputs input {
+  width: 235px;
   height: 50px; 
   margin-bottom: 20px;
+  padding-left: 20px;
   border: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px; 
+  color: #5F5D5D;
 }
-.form-block_message_secondinput input{
-  width: 540px;
-  height: 175px;
+
+.form__block--message--secondinput textarea{
+  padding: 17px 353px 143px 20px;
+  border: none;
   margin-bottom: 50px;
-  border: none;
+  resize: none;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 23px;
+
+  color: #5F5D5D;
 }
-.form-block_button {
+
+.form__block--button {
   margin: auto;
   text-align: center;
 }
-.form-block_button button {
+
+.form__block--button button {
   width: 190px;
   height: 55px;
   font-family: Roboto;
@@ -396,23 +451,26 @@ button {
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.15em;
-
   color: #FFFFFF;
 }
-.footer-block {
+
+.footer__block {
   height: 151px;
   background-color: #34547a;
   display: flex;
   justify-content: space-around;
 }
-.footer-block_vklogo img {
+
+.footer__block--vklogo img {
   width: 50px;
   height: 50px;
 }
-.footer-block_author {
+
+.footer__block--author {
   margin: 50px;
 }
-.footer-block_author h3 {
+
+.footer__block--author h3 {
   margin-bottom: 10px;
   font-family: Roboto;
   font-style: normal;
@@ -420,59 +478,81 @@ button {
   font-size: 21px;
   line-height: 25px;
   text-align: center;
-
   color: #FFFFFF;
 }
-.footer-block_author p {
+
+.footer__block--author p {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
   font-size: 13px;
   line-height: 21px;
   text-align: center;
-
   color: #FFFFFF;
-
 }
-.footer-block_vklogo {
+
+.footer__block--vklogo {
   margin: 50px;
 }
 
+.footer__block--vklogo img{ 
+  padding-right: 20px;
+}
+
+.footer__block--vklogo img:last-child{ 
+  padding-right: 0;
+}
+
 @media (max-width: 1279px) {
-  .first-screen {
+
+  .first__screen {
     height: 870px;
   }
-  .first-screen_picture img {
+
+  .first__screen--picture img {
     width: 274px;
     height: 188px;
   }
-  .first-screen_menu {
+
+  .first__screen--menu {
     display: none;
   }
-  .first-screen_body {
+
+  .first__screen--body {
     display: flex;
     flex-direction: column;
   }
-  .first-screen_logotype {
+
+  .first__screen--logotype {
     position: absolute;
     left: 20px;
-    top: 30px;
+    top: 40px;
     width: 96px;
     height: 60px;
+    align-self: center;
+    display: flex;
   }
-  .first-screen_picture {
+
+  .first__screen--logotype img{ 
+    align-self: center;
+  }
+
+  .first__screen--picture {
     margin: auto;
   }
-  .first-screen_picture img {
+
+  .first__screen--picture img {
     margin: 60px auto;
     width: 300px;
     height: 195px;
   }
-  .first-screen_maintext {
+
+  .first__screen--maintext {
     margin: auto;
     width: 100%;
   }
-  .first-screen_maintext h1 {
+
+  .first__screen--maintext h1 {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -482,7 +562,8 @@ button {
     display: flex;
     justify-content: center;
   }
-  .first-screen_maintext p {
+
+  .first__screen--maintext p {
     width: auto;
     height: auto;
     padding: 45px 25px;
@@ -495,123 +576,143 @@ button {
     color: #727272;
     word-wrap: break-word;
   }
-  .first-screen_maintext_button {
+
+  .first__screen--maintext--button {
     display: flex;
     justify-content: center;
     margin-top: 0;
   }
-  .about-me {
+
+  .about__me {
     height: 351px; 
     display: flex;
   }
-  .about-me_maintext {
+
+  .about__me--maintext {
     margin: auto;
     width: 50%;
     height: auto;
-    justify-content: center;
-      
-    
+    justify-content: center;  
   }
-  .about-me_maintext h2 {
+
+  .about__me--maintext h2 {
     margin-left: 0;
     width: 100%;
     height: 38px; 
   }
-  .about-me_maintext p {
+
+  .about__me--maintext p {
     padding: 42px 26px;
     text-align: center;
     margin: 0;  
     
   }
-  .rectangle-projects {
+
+  .rectangle__projects {
     height: 400px;
   }
-  .rectangle-projects_block {
+
+  .rectangle__projects--block{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 50px;  
   }
-  .rectangle-projects_pieofblock {
+
+  .rectangle__projects--block--pieofblock {
     margin:  10px;
     margin-bottom: 50px;
   }
+
   .skills {
-    min-height: 1000px;
+    min-height: 850px;
     width: 100%;
   }
-  .skills-block {
+
+  .skills__block {
     display: flex;
     flex-direction: column;
     margin-top: 80px;
     height: auto;
   }
-  .skills-block_maintext {
+
+  .skills__block--maintext {
     margin: auto;
     order: 2;
     width: 95%;
   }
-  .skills-block_maintext h2 {
+
+  .skills__block--maintext h2 {
     display: flex;
     justify-content: center;
     align-self: center;
   }
-  .skills-block_maintext_head {
+
+  .skills__block--maintext--head {
     margin-left: 10px;
   }
-  .skills-block_maintext_colorblock {
+
+  .skills__block--maintext--colorblock {
     width: 96%;
   }
-  .skills-block_maintext_colorblock p {
+
+  .skills__block--maintext--colorblock p {
     width: 75%;
   }
-  .skills-block_photo {
+
+  .skills__block--photo {
     margin: auto;
     max-width: auto;
     order: 1;
   }
-  .skills-block_photo img {
+
+  .skills__block--photo img {
     padding: 15px;
     width: 90%;
   }
-  .skills-block_maintext h2 {
+
+  .skills__block--maintext h2 {
     margin-top: 50px;
     text-align: center;
     max-width: 320px;
   }
 
-  .video-block {
+  .video__block {
     height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
   }
-  .video-block_title {
+
+  .video__block--title {
     margin: 0;
     width: 50%;
     margin-top: 93px;
     align-self: center;
   }
-  .video-block_title p {
+
+  .video__block--title p {
     height: auto;
     width: auto;
-    text-align: center;
-    margin-top: 34px;
-    padding: 0 26px;
+    text-align: center; 
+    padding: 34px 26px ;
     word-wrap: break-word;
     
   }
-  .video-block_rectangle { 
+
+  .video__block--rectangle { 
     width: auto;
     height: auto;
     padding: 18px;
-    margin-top: 90px;
+    margin-top: 60px;
   }
-  .video-block_rectangle img:first-child { 
+
+  .video__block--rectangle--main  { 
     position: relative;
     width: 100%;
     height: 100%;
   }
-  .video-block_rectangle img:last-child {
+
+  .video__block--rectangle--play  {
     position: absolute;
     width: 80px;
     height: 80px; 
@@ -621,88 +722,123 @@ button {
     top: 0;
     bottom: 0;
     text-align: center;
-  }
-  .projects-block { 
-    margin-bottom: 30px; 
-    min-height: 1050px;
-  }
-  .projects-block_picture {
+  } 
+
+  .projects__block--picture {
     display: grid;
     grid-template-columns: 1fr 1fr ; 
   }  
-  .projects-block_picture_col img { 
+
+  .projects__block--picture--col img { 
     width: 250px;
     width: 250px;
   } 
-  .form-block {
-    min-height: 780px;
+
+  .form__block {
+    height: auto;
   }
-  .form-block_title { 
+
+  .form__block--title { 
     margin-top: 91px;
     width: auto;
     display: flex;
     flex-direction: column;
   }
-  .form-block_title h2 {
-    margin-top: 30px;
+
+  .form__block--title h2 { 
     width: 100%;
     text-align: center;
   }
-  .form-block_title p {
+
+  .form__block--title p {
     margin: 0; 
-    padding: 34px 26px; 
+    padding: 34px 20px; 
     height: auto; 
     margin: auto;
     width: 50%;
   }
-  .form-block_message { 
 
+  .form__block--message {  
     width: 50%; 
+    margin-top: 28px;
   } 
-   .form-block_message_firstinputs{ 
+
+  .form__block--message--firstinputs{ 
     display: flex;
     flex-direction: column;  
     align-items: center; 
   } 
-  .form-block_message_secondinput  {
-    margin: auto;
-    width: 100%;
-    text-align: center;
-      
+
+  .form__block--message--firstinputs input{ 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px; 
+    color: #5F5D5D;
   } 
-   .form-block_message input {
+
+  .form__block--message--secondinput   { 
+    text-align: center; 
+  } 
+
+  .form__block--message--secondinput textarea { 
+    padding: 17px 0 0 20px; 
+    height: 175px; 
+    width: 90%;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px; 
+    color: #5F5D5D;
+  } 
+  .form__block--message input {
     width: 90%;
     border: none;
   }  
-  .footer-block {
+  
+  .form__block--button{
+    margin-bottom: 100px;
+  }
+
+  .footer__block {
     display: flex;
     flex-direction: column;
     width: auto;
     height: 210px;
   }
-  .footer-block_author {
+  
+  .footer__block--author {
     margin: 0;
     text-align: center;
   }
-  .footer-block_vklogo {
+  
+  .footer__block--vklogo {
     margin: 0;
     text-align: center;
   }
 }
-@media (max-width: 380px) { 
-  .about-me_maintext {
+@media (max-width: 400px) { 
+  
+  .about__me--maintext {
     width: 100%;
   }  
+  
   .skills{
     min-height: 750px; 
   } 
-  .video-block_title {
+  
+  .video__block--title {
     width: auto;
   }
- .video-block_rectangle {
-  margin-bottom: 80px;
- }
- .video-block_rectangle img:last-child {
+  
+  .video__block--rectangle {
+    margin-bottom: 70px;
+  }
+  
+  .video__block--rectangle--play {
     position: absolute;
     width: 70px;
     height: 70px; 
@@ -713,24 +849,25 @@ button {
     bottom: 0;
     text-align: center;
   }
-  .form-block_message{
+  
+  .form__block--message{
     width: auto;
   }
-  .form-block_title{
-   margin-top: 50px;
+  
+  .form__block--title{
+    margin-top: 90px;
   }  
-  .form-block_title p{
-   margin: 0;
-   width: 84%;  
-   width: auto;
-   height: auto;   
-   text-align: center; 
-   word-wrap: break-word;
-  }
-  .projects-block {  
-    min-height: 750px;
-  }
-  .first-screen {
+  
+  .form__block--title p{
+    margin: 0;
+    width: 84%;  
+    width: auto;
+    height: auto;   
+    text-align: center; 
+    word-wrap: break-word;
+  } 
+  
+  .first__screen{
     height: 800px;
   }  
 }
